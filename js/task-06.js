@@ -1,5 +1,3 @@
-"use strict";
-
 const input = document.querySelector('#validation-input');
 const valid = input.getAttribute("data-length");
 const inValid = parseInt(valid, 10);

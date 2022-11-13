@@ -1,5 +1,3 @@
-"use strict";
-
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
@@ -11,7 +9,7 @@ const refs = {
 
 const changeColor = () => {
   document.body.style.backgroundColor = getRandomHexColor();
-  refs.text.textContent = getRandomHexColor();
+  refs.text.textContent = document.body.style.backgroundColor;
 }
 
 refs.button.addEventListener('click', changeColor);

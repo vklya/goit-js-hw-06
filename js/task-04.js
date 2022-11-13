@@ -1,5 +1,3 @@
-"use strict";
-
 const refs = {
     add: document.querySelector("[data-action='increment']"),
     del: document.querySelector("[data-action='decrement']"),

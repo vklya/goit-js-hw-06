@@ -1,5 +1,3 @@
-"use strict";
-
 const categories = document.querySelectorAll('.item');
 console.log(`Количество категорий: ${categories.length}.`);
 
